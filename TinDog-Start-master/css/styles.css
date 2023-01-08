@@ -7,6 +7,11 @@ body{
 
 .container-fluid{
     padding:3% 15%;
+    height: 700px;
+}
+
+.first{
+    height: 700px;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -48,4 +53,33 @@ h1{
 .titleimage{
     transform: rotate(25deg);
     height: 70%;
+}
+
+
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+.feats{
+    padding: 7% 15%;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.feat{
+    text-align: center;
+    padding: 5.5%;
+}
+p{
+    color:#8f8f8f;
+}
+
+.featico{
+    color:#ef8172;
+}
+
+.featico:hover{
+    color:#ff4c68;
 }
