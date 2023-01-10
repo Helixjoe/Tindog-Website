@@ -6,13 +6,15 @@ body{
 }
 
 .container-fluid{
-    padding:3% 15%;
+    padding:3% 15% 5%;
     height: 700px;
 }
 
 .first{
     height: 700px;
+    
 }
+
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -58,7 +60,9 @@ h2{
 
 .titleimage{
     transform: rotate(25deg);
-    height: 70%;
+    width: 23%;
+    position: absolute;
+    right: 25%;
 }
 
 
@@ -68,7 +72,10 @@ h3{
     font-weight: 900;
 }
 
-
+#features{
+    background-color: white;
+    position: relative;
+}
 .feats{
     padding: 7% 15%;
     font-family: 'Montserrat',sans-serif;
