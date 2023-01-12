@@ -60,9 +60,10 @@ h2{
 
 .titleimage{
     transform: rotate(25deg);
-    width: 23%;
+    height: 100%;
     position: absolute;
     right: 25%;
+    z-index: 0;
 }
 
 
@@ -140,4 +141,22 @@ p{
 
 .pricing-column{
     padding:3% 2%;
+}
+
+/* Media Query Breakpoints */
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .titleimage{
+        position:static;
+        transform:rotate(0);
+    }
+
+    #features{
+        position: relative;
+    }
 }
