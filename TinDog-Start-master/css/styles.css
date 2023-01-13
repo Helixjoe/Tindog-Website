@@ -151,3 +151,21 @@ p{
     }
     
 }
+
+/* Call To Action */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 10% 20%;
+    text-align: center;
+}
+
+.cta-heading{
+    color:#ffff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 50px;
+}
+
+.ctabtns{
+    margin: 5% 2% 0 ;
+}
