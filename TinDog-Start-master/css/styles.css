@@ -169,3 +169,14 @@ p{
 .ctabtns{
     margin: 5% 2% 0 ;
 }
+
+/* Footer */
+
+#footer{
+    padding:5% 15%;
+    background-color: #ffff;
+    text-align: center;
+}
+.footicons{
+    margin:0 1% 2%;
+}
